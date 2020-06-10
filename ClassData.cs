@@ -9,12 +9,12 @@ namespace WebApplication_0213
   {
     //建立 JSON 內的屬性，注意名稱要一樣!
     public bool isIamge { set; get; }
-    public OneData[] data { set; get; }
+    public Data[] data { set; get; }
     public string id { set; get; }
     public bool success { set; get; }
   }
 
-  public class OneData
+  public class Data
   {
     public int seq { set; get; }
     public string 年度 { set; get; }
